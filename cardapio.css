@@ -1,0 +1,258 @@
+#hero {
+    position: relative;
+    height: 60vh;
+    width: 174vh;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 2.5px 2.5px 7px black;
+}
+
+#hero::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("https://files.catbox.moe/ga6j2p.png");
+    background-size: cover;
+    background-position: top 25% right 0%;
+    filter: brightness(0.5); 
+    z-index: -1; 
+}
+
+
+
+#cardapio{
+height: 0vh;
+width: 48%;
+
+}
+
+#hero { 
+    color: white;
+    text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+.sectionp1{
+
+    padding: 50px 90px;
+}
+  
+#feature .featurebox { 
+    width: 180px;
+    text-align: center;
+    box-shadow: 0.5px 0.5px 7px black;
+    margin: 0px 0px; 
+    z-index: 1; 
+}
+
+#feature .featurebox:hover {
+    box-shadow: 3.5px 3.5px 17px black;
+    z-index: 2; 
+}
+
+#feature .featurebox h4 { 
+    width: 53%;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 3px 8px 6px 8px; 
+    line-height: 1;
+    color: black;
+    background-color: rgb(167, 167, 167);
+    z-index: 3; 
+}
+
+
+#feature{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#product1{
+    text-align: center;
+}
+
+#product1 .container{
+   display: flex;
+   justify-content: space-between   ;
+   padding-top: 20px;
+   flex-wrap: wrap;
+   
+}
+
+#product1 .product{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 9px;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 2.5px 2.5px 7px black;
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .product:hover {
+    box-shadow: 3.5px 3.5px 17px black;
+   
+}
+
+#product1 .product img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#product1 .product .description{
+    text-align: start;
+    padding: 0px 0;
+}
+
+#product1 .product .description span{
+    color: grey;
+    font-size: 12px;
+}
+
+#product1 .product .description h2{
+    padding-top: 0px;
+    color: black;
+    
+}
+
+#product1 .product .description i{
+   font-size: 12px;
+    color: gold;
+    
+}
+
+#product1 .product .description h3{
+    padding-top: 0px;
+    font-weight: 700;
+     
+     
+ }
+
+ 
+ #product1 .product .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 2px;
+    background-color: grey;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+  
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 2px;
+
+    
+  
+}
+
+footer h2{
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow i{
+    margin-top: 20px;
+    color: black;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover{
+    color: grey;
+}
+
+footer .copyright{
+    width: 100%;
+    display: absolute;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    height: 70vh;
+    width: 171vh;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: right;
+    box-shadow: 2.5px 2.5px 7px black;
+}
+
+footer::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("https://files.catbox.moe/ga6j2p.png");
+    background-size: cover;
+    background-position: top 55% right 0%;          
+    filter: brightness(0.5); 
+    z-index: -1; 
+}
+
+
+      footer{
+    
+        color: white;
+        text-shadow:
+          -1px -1px 0 #000,
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+          1px 1px 0 #000;
+      
+}
+
+footer a{
+    color: white;
+}
+
